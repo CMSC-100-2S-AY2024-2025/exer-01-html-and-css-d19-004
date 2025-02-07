@@ -1,17 +1,31 @@
+/* Note: Some border of div classes are kept as comments
+  for checking.*/
+
 body{
   background-color: rgb(240, 255, 255);
 }
 
 /* header ------------------------------------------------- */
 .headerPanel{
-  
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  width: 97.2%;
   background-image: url(./images/bg.gif);
 }
 
 .portfolioHeader{
-  padding-top: 30px;
-  padding-bottom: 0px;
-  color:rgb(168, 223, 223);
+  font-family: monospace;
+  font-size: 45px;
+  display: inline;
+  color:rgb(222, 252, 252);
+}
+
+.myTitle{
+  font-family: monospace;
+  font-size: 20px;
+  display: inline;
+  color: rgb(222, 252, 252);
 }
 /* -------------------------------------------------------- */
 .main{
@@ -25,14 +39,15 @@ body{
 .leftPanel {
   display: flex;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */      
   height: 100%;
   width: 35%;
   flex-direction: column;
 }
 
 #photoPanel{
-  border: 2px solid brown;
+  border: 8px double rgb(35, 57, 124);
+  border-top-left-radius: 5px;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 10px;
@@ -48,13 +63,14 @@ body{
 .rightPanel{
   display: flex;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100%;
   width: 100%;;
   flex-direction: column;
 }
 
 .aboutMeHeader{
+  font-family: monospace;
   display: inline;
   text-align: left;
   margin-top: 15px;
@@ -91,9 +107,18 @@ body{
   height: 100%;
   background-color: azure;
   color: darkslategray;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
   
+}
+
+/* footer ---------------------------------------------------- */
+.footerPanel{
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  width: 97.2%;
+  background-image: url(./images/bg.gif);
 }
 
 /* tester ---------------------------------------------------- */
