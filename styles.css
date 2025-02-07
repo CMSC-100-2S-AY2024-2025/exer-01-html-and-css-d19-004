@@ -1,0 +1,72 @@
+.main{
+  display: flex;
+
+  border: 1px solid black;
+  height: 1000px;
+  flex-direction: row;
+}
+
+.leftPanel {
+  display: flex;
+
+  border: 1px solid black;
+  height: 950px;
+  flex-direction: column;
+}
+
+.rightPanel{
+  display: flex;
+
+  border: 1px solid black;
+  height: 950px;
+  flex-direction: column;
+}
+
+#aboutMe{
+  display: inline-block;
+  justify-content: center;
+
+  background-color:honeydew;
+  border: 1px solid gray;
+  margin: 10px;
+  height: 950px;
+  width: 600px;
+}
+
+#myInfo{
+  display: inline-block;
+  justify-content: flex-start;
+
+  background-color:honeydew;
+  border: 1px solid gray;
+  margin: 10px;
+  height: 300px;
+  width: 1000px;
+}
+
+
+#previousProjects{
+  display: inline;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: azure;
+  color: darkslategray;
+  border: 1px solid black;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
+
+.small-square{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+
+  background-color: azure;
+  color: darkslategray;
+  border: 1px solid black;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
