@@ -1,0 +1,79 @@
+<!-- 
+  Canape, Daphne
+  C-4L
+  2023-66244
+  Exercise 1: My Portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- link the css to this html file -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<!-----------------------  BODY --------------------------------->
+<body>
+  <div class="headerPanel">
+    <br>
+    <h1 class="portfolioHeader">DAPHNE DHAYNE CANAPE</h1>
+    <br>
+    <h4 class="myTitle">Junior Database Analyst</h4>
+  </div> <!-- end of header panel -->
+  <div class="main">
+    <!-- left panel --------------------------------------------->
+    <div class="leftPanel">
+      <div id = "photoPanel" > 
+        <img src="./images/my_photo.jpg" alt="myPic" id="myPicture" width = "100%" height = "100%">
+      </div>
+      <div class="personalInfo">
+        <p>Daphne Canape</p>
+        <p>BS Computer Science</p>
+        <p>Contact no.: 09150644456</p>
+        <p>dcanape@up.edu.ph</p>
+      </div>
+    </div> <!-- end of left panel -->
+    <!-- right panel -------------------------------------------->
+    <div class="rightPanel">
+      <div id="autobiography"> <!-------------------------------->
+        <h1 class="aboutMeHeader">About Me</h1>
+        <div class="mainTxt">
+          <p class="text1">
+            My name is Daphne Canape and I am a junior database analyst. 
+            I specialize in database systems and data science. I graduated from the country's premiere
+            state university, University of the Philippines Los Baños, in 2027 with a bachelor's degree
+            in Computer Science.
+          </p>
+        </div>
+      </div> <!-- end of autobiography panel -->
+      <div id="previousProjects"> <!----------------------------->
+        <h1 class="aboutMeHeader">My Previous Projects</h1>
+        <div class="mainTxt">
+          <p class="text1">
+            Below are some of my previous projects done in UPLB.
+          </p>
+        </div>
+        <div class="photos">
+          <img src="./images/apt.jpg" alt="apt" class="apt" height = "150px" width ="150px">
+          <img src="./images/library.jpg" alt="library" class="library" height = "150px" width ="150px">
+          <img src="./images/dietCalculator.png" alt="dietCalcu" class="calculator" height = "150px" width ="150px">
+          <img src="./images/22Game.png" alt="game" class="game" height = "150px" width ="150px">
+        </div>
+
+        <div class = "labels">
+          <h4>Apartment Tracker</h4>
+          <h4>Library System</h4>
+          <h4>Diet Calculator</h4>
+          <h4>Java Game</h4>
+        </div>
+      </div> <!-- end of prev projects panel -->
+    </div> <!-- end of right panel -->
+  </div>   <!-- end of main panel (which contains the left and right panel)-->
+  <!-- bottom panel ------------------------------------------->
+  <div class="footerPanel">
+  </div>  
+</body>
+</html>

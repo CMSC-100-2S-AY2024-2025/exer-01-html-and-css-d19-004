@@ -2,8 +2,7 @@
 
 Daphne Canape <br>
 BS Computer Science <br>
-
-<h4>Steps on how to create GitHub Page:</h4>
+<h2>Steps on how to create GitHub Page:</h2>
 <br>
 1. Create a folder to the directory of your choice (ex. Desktop).<br>
 2. Accept the assignment given to you.<br>
@@ -14,3 +13,6 @@ BS Computer Science <br>
 7. Clone the repository by typing 'git clone <modified link>' to the command prompt.<br>
 8. Open the folder in VSCode and you can now start editing.<br>
 9. Once done, make sure to add, commit, and push your changes to the repository.<br>
+
+
+- Takeaways: My takeaways for this exercise is basically the whole exercise (aside from the HTML basics like '<html>, <head>') because I forgot how to do those.

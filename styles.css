@@ -56,6 +56,9 @@ body{
 }
 
 .personalInfo{
+  font-family: monospace;
+  font-size: 20px;
+  color: rgb(33, 44, 77);
   margin-left: 30px;
 }
 
@@ -75,15 +78,17 @@ body{
   text-align: left;
   margin-top: 15px;
   margin-left: 15px;
-  color: rgb(50, 159, 189);
+  /* color: rgb(50, 159, 189); */
+  color: rgb(43, 125, 148);
 }
 
 #autobiography{
   /* display: flex; */
 
-  background-color:honeydew;
+  background-color:rgb(194, 242, 255);
   border: 1px solid gray;
   margin: 10px;
+  padding-top: 10px;
 
   text-align: justify;
 }
@@ -110,6 +115,20 @@ body{
   /* border: 1px solid black; */
   margin: 10px;
   
+}
+
+.photos{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.labels{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* footer ---------------------------------------------------- */
