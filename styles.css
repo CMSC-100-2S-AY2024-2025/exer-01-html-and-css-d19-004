@@ -55,11 +55,22 @@ body{
   height: 300px;
 }
 
+p{
+  display: inline;
+
+}
+
+.userIcon, .phoneIcon, .courseIcon, .emailIcon{
+    margin-top:5px;
+}
+
+
 .personalInfo{
   font-family: monospace;
   font-size: 20px;
   color: rgb(33, 44, 77);
-  margin-left: 30px;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
 /* right panel -------------------------------------------- */
@@ -141,7 +152,7 @@ body{
 }
 
 /* tester ---------------------------------------------------- */
-.small-square{
+/* .small-square{
   display: inline;
   justify-content: center;
   align-items: center;
@@ -152,4 +163,4 @@ body{
   margin: 10px;
   height: 50px;
   width: 100px;
-}
+} */
